@@ -1,0 +1,13 @@
+.adresse>svg {
+  margin-right: 0.5rem;
+  color: #28a49a;
+}
+
+.adresse.primary {
+  color: gray;
+}
+
+.adresse.secondary {
+  color: #fff;
+  font-style: italic;
+}

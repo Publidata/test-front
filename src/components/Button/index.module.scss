@@ -1,19 +1,31 @@
-:global{
-  .btn-primary{
-    background-color:$color-primary;
-    border-color:$color-primary;
+// :global {
+//   .btn-primary {
+//     background-color: $color-primary;
+//     border-color: $color-primary;
 
-    &:hover, &:focus, &:active, &:not(:disabled):not(.disabled):active{
-      background-color: darken($color-primary, 8%);
-      border-color: darken($color-primary, 8%);
-    }
-  }
+//     &:hover,
+//     &:focus,
+//     &:active,
+//     &:not(:disabled):not(.disabled):active {
+//       background-color: darken($color-primary, 8%);
+//       border-color: darken($color-primary, 8%);
+//     }
+//   }
+// }
+
+.btn {
 }
 
-.btn{
-
+.btn-sm {
+  border: 2px solid red;
 }
-
-.sm{
-
+.btn-md {
+  border: 2px solid red;
+}
+.btnArrow {
+  background-color: $color-primary;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 50%;
 }

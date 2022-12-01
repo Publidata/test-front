@@ -1,0 +1,42 @@
+.date {
+  padding: 0.2em 0.8em;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.day {
+  color: #28a49a;
+  font-weight: 700;
+}
+
+.month {
+  color: gray;
+}
+
+
+.date::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 1px;
+  background-color: gray;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.date.primary {
+  background-color: rgb(255, 255, 255);
+}
+
+.date.secondary {
+  background-color: transparent;
+  box-shadow: none;
+}
