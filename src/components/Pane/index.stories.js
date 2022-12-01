@@ -21,18 +21,3 @@ WithCover.args = {
   cover: Img,
   title: "Le Printemps des Jardiniers",
 };
-
-
-
-
-
-
-
-
-
-// storiesOf('Exercise/Components/Pane', module)
-//   .add('default', () => (
-//     <Pane />
-//   )).add('with cover', () => (
-//     <Pane cover={Img} title="Le printemps des jardiniers" />
-//   ))

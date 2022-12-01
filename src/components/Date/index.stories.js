@@ -17,6 +17,8 @@ export const PrimaryDate = Template.bind({});
 PrimaryDate.args = {
   label: 'My date',
   primary: true,
+  day: "23",
+  month: "03"
 };
 
 export const SecondaryDate = Template.bind({});
@@ -24,22 +26,7 @@ export const SecondaryDate = Template.bind({});
 SecondaryDate.args = {
   label: 'My secondary date',
   primary: false,
+  day: "23",
+  month: "03"
 };
-
-
-
-// storiesOf('Exercise/Components/Button', module)
-//   .add('with text', () => (
-//     <Button>My button</Button>
-//   )).add('with some emoji', () => (
-//     <Button><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-//   )).add("with font-awesome", () => (
-//     <Button>
-//       <FontAwesomeIcon icon={faMapMarker} />
-//     </Button>
-//   )).add('with type', () => (
-//     <Button type="dark">My button</Button>
-//   )).add('with size', () => (
-//     <Button size="sm">My button</Button>
-//   ));
 

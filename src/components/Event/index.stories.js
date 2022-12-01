@@ -15,27 +15,19 @@ const Template = (args) => <Event {...args}></Event>;
 
 export const FirstEvent = Template.bind({});
 FirstEvent.args = {
+  emoji: '🐝',
+  title: 'Conférence sur le frelon asiatique',
+  url: 'https://www.savigny-le-temple.fr/content/attention-aux-frelons-asiatiques',
+  day: "05",
+  month: "03"
 };
 
 export const SecondEvent = Template.bind({});
 
 SecondEvent.args = {
+  emoji: '🙆',
+  title: "L'entrepreneuriat au féminin",
+  url: 'https://www.savigny-le-temple.fr/content/les-femmes-unies-senart-fus',
+  day: "29",
+  month: "03"
 };
-
-
-
-// storiesOf('Exercise/Components/Button', module)
-//   .add('with text', () => (
-//     <Button>My button</Button>
-//   )).add('with some emoji', () => (
-//     <Button><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-//   )).add("with font-awesome", () => (
-//     <Button>
-//       <FontAwesomeIcon icon={faMapMarker} />
-//     </Button>
-//   )).add('with type', () => (
-//     <Button type="dark">My button</Button>
-//   )).add('with size', () => (
-//     <Button size="sm">My button</Button>
-//   ));
-

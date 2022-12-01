@@ -12,15 +12,15 @@ export default {
 
 const Template = (args) => <Adresse {...args}><FontAwesomeIcon icon={faMapMarker} /> </Adresse>;
 
-export const AdresseTextPrimary = Template.bind({});
-AdresseTextPrimary.args = {
+export const AdressTextGray = Template.bind({});
+AdressTextGray.args = {
   place: 'Domaine de la Grange - la Prévôté',
   icon: <FontAwesomeIcon icon={faMapMarker} />,
   primary: true,
 };
 
-export const AdresseTextSecondary = Template.bind({});
-AdresseTextSecondary.args = {
+export const AdressTextWhite = Template.bind({});
+AdressTextWhite.args = {
   place: 'Domaine de la Grange - la Prévôté',
   icon: <FontAwesomeIcon icon={faMapMarker} />,
   primary: false,

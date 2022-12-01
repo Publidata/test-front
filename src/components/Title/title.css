@@ -1,3 +1,5 @@
+/* First event title styling */
+
 .mainText {
   font-size: 26px;
   font-weight: 900;
@@ -6,6 +8,8 @@
   color: #fff;
   max-width: 240px;
 }
+
+/* Future events text styling*/
 
 .subText {
   font-size: 18px;

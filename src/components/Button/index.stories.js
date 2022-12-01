@@ -25,18 +25,21 @@ WithText.args = {
 export const WithSomeEmoji = Template.bind({});
 
 WithSomeEmoji.args = {
+  primary: true,
   label: <span role="img" aria-label="so cool">😀 😎 👍 💯</span>,
 };
 
 export const WithFontAwesome = Template.bind({});
 
 WithFontAwesome.args = {
+  primary: true,
   label: <FontAwesomeIcon icon={faMapMarker} />,
 };
 
 export const WithType = Template.bind({});
 
 WithType.args = {
+  primary: true,
   component: Button,
   label: 'My button',
   type: 'dark'
@@ -46,6 +49,7 @@ export const WithSize = Template.bind({});
 
 WithSize.args = {
   component: Button,
+  primary: true,
   label: 'My button',
   size: 'sm'
 };
@@ -55,7 +59,7 @@ WithUrl.args = {
   size: 'sm',
   label: 'Button',
   primary: true,
-  url: '',
+  url: 'https://www.google.com/',
 };
 
 export const Large = Template.bind({});
@@ -71,34 +75,4 @@ Small.args = {
   label: 'Button',
   primary: true,
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// storiesOf('Exercise/Components/Button', module)
-//   .add('with text', () => (
-//     <Button>My button</Button>
-//   )).add('with some emoji', () => (
-//     <Button><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-//   )).add("with font-awesome", () => (
-//     <Button>
-//       <FontAwesomeIcon icon={faMapMarker} />
-//     </Button>
-//   )).add('with type', () => (
-//     <Button type="dark">My button</Button>
-//   )).add('with size', () => (
-//     <Button size="sm">My button</Button>
-//   ));
 

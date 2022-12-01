@@ -17,12 +17,20 @@ import { Event } from "../Event";
 export const Pane = ({ cover }) => {
   return (
     <div className="main">
-      <div className="pane" style={{ background: "linear-gradient(to bottom, rgba(220, 220, 220, 0.1), rgba(86, 97, 90, 0.83)), url(" + cover + ")", backgroundSize: "cover" }}>
+      <div className="pane" style={{ background: "linear-gradient(to bottom, rgba(220, 220, 220, 0.1), rgba(86, 97, 90, 0.93)), url(" + cover + ")", backgroundSize: "cover" }}>
         <div className="container">
           <div className="left">
             <div className="leftContainer">
-              <Date primary="true" />
-              <Title textclass="mainText" text="Le Primtemps des Jardiniers" />
+              <Date
+                primary="true"
+                day="05"
+                month="03"
+              />
+              <Title
+                textclass="mainText"
+                text="Le Primtemps des Jardiniers"
+                url='https://www.savigny-le-temple.fr/domaine-grange-prevote/printemps-jardiniers'
+              />
             </div>
             <Adresse />
           </div>
@@ -38,8 +46,19 @@ export const Pane = ({ cover }) => {
           </div>
         </div>
       </div>
-      <Event emoji="🐝" title="Conférence sur le frelon asiatique" />
-      <Event emoji="🙆" title="L'entrepreneuriat au féminin" />
+      <Event
+        day="24"
+        month="03"
+        emoji="🐝"
+        title="Conférence sur le frelon asiatique"
+        url="https://www.savigny-le-temple.fr/content/attention-aux-frelons-asiatiques"
+      />
+      <Event
+        day="29"
+        emoji="🙆"
+        title="L'entrepreneuriat au féminin"
+        url="https://www.savigny-le-temple.fr/content/les-femmes-unies-senart-fus"
+      />
     </div>
   );
 };

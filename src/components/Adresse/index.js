@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import css from "./index.module.scss";
+// import css from "./index.module.scss";
 import './adresse.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,7 +10,7 @@ import { faMapMarker } from '@fortawesome/free-solid-svg-icons'
 
 
 export const Adresse = ({ primary, place, icon }) => {
-  const mode = primary ? 'primary' : 'secondary';
+  const mode = primary ? 'primary' : 'secondary'; // Choose between primary = text in gray and secondary = text in white and italic
   return (
     <p className={['adresse', mode].join(' ')}>{icon}{place}</p>
   )

@@ -14,25 +14,15 @@ export default {
 
 const Template = (args) => <Title {...args}></Title>;
 
-export const MainCardText = Template.bind({});
-MainCardText.args = {
+export const MainCardTextWhite = Template.bind({});
+MainCardTextWhite.args = {
   text: 'Le Printemps des Jardiniers',
-  textclass: 'mainText'
+  textclass: 'mainText',
+  url: ''
 };
 
 export const SubCardText = Template.bind({});
 SubCardText.args = {
-  text: '',
+  text: 'Conférence sur le frelon asiatique',
   textclass: 'subText'
 };
-
-
-
-
-
-// storiesOf('Exercise/Components/Title', module)
-//   .add('default', () => (
-//     <Title>Le printemps des Jardiniers</Title>
-//   )).add('adresse', () => (
-//     <Title>Domaine de la Grange - la Prévôté</Title>
-//   ))
