@@ -3,4 +3,23 @@
   font-weight:900;
   -moz-osx-font-smoothing: grayscale;
   margin:0;
+  &_primary {
+    color: #fff;
+  }
+  &_secondary {
+    color: $color-title-secondary;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  &_thirdly {
+    font-size: 16px;
+    color: #8d8d8d;
+    font-weight: 500;
+    &_italic {
+      font-style: italic;
+      font-size: 16px;
+      color: rgb(230, 230, 230);
+      font-weight: 500;
+    }
+  }
 }

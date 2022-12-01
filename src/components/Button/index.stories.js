@@ -18,4 +18,8 @@ storiesOf('Exercise/Components/Button', module)
     <Button type="dark">My button</Button>
   )).add('with size', () => (
     <Button size="sm">My button</Button>
+  ))
+  // Final button
+  .add('with arrow', () => (
+    <Button arrow={true}></Button>
   ));

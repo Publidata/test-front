@@ -1,0 +1,40 @@
+.calandar {
+    width: 30px;
+    height: 40px;
+    padding: .7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.calandarSecondary {
+    width: 30px;
+    height: 40px;
+    padding: .7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.calandarday {
+    color: $color-primary;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    border-bottom: solid #ccc 1px;
+}
+
+.calandarmonth {
+    color:#8d8d8d;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
